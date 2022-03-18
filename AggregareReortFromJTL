@@ -1,0 +1,9 @@
+It is but you will need to install some JMeter Plugins:
+
+Synthesis Report
+JMeterPluginsCMD Command Line Tool
+you can install the plugins using JMeter Plugins Manager
+
+Once done you will be able to generate the textual representation of the Aggregate Report listener like:
+
+JMeterPluginsCMD --generate-csv AggregateReport.csv --input-jtl testresults.jtl --plugin-type AggregateReport
